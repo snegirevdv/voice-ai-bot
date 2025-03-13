@@ -31,7 +31,8 @@
 
 3. Установите зависимости:
    ```bash
-   pip install -r requirements.txt
+   make build                         # для Linux/macOS
+   pip install -r requirements.txt    # для любой ОС
    ```
 
 4. Создайте файл `.env` на основе примера `.env.example`:
@@ -45,8 +46,8 @@
 
 Запустите бота с помощью команды:
 ```bash
-make run # в Linux/MacOS
-python -m app.main # в любой операционной системе
+make start         # для Linux/macOS
+python -m app.main # для любой ОС
 ```
 
 ## Логирование
